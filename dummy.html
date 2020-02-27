@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dummy HTML</title>
+    <!--Bootstrap Stylesheet-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/4e035445ec.js" crossorigin="anonymous"></script>
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <div class="jumbotron jumbotron-fluid" ">
+        <div class="container">
+          <h1 class="display-4 text-center id="headerText""><i class="far fa-newspaper"></i>New York Times Search</h1>
+        </div>
+      </div>
+      <div class="container">
+        
+      </div>
+      <div class="container">
+          <div class="row">
+              <div class="col-2"></div>
+              <div class="col-8">
+                <form>
+                    <div class="form-group">
+                      <label for="exampleFormControlInput1">Search Term:</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">Number of Records to Rerieve</label>
+                      <select class="form-control" id="exampleFormControlSelect1">
+                        <option>1</option>
+                        <option>5</option>
+                        <option>10</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Start Year (Optional)</label>
+                        <input type="email" class="form-control" id="startYear" >
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleFormControlInput1">End Year (Optional)</label>
+                        <input type="email" class="form-control" id="endYear" >
+                      </div>
+                      <button id="submitBtn" onclick="submitClick()" type="button" class="btn btn-secondary">Submit</button>
+                      <button type="button" class="btn btn-secondary">Clear Results</button>
+                      
+                  </form>
+              </div>
+              <div class="col-2"></div>
+          </div>
+      </div>
+        
+      
+
+      
+<script>
+    function submitClick (){
+document.getElementById("submitBtn")
+    }
+</script>    
+</body>
+</html>
